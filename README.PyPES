@@ -1,0 +1,24 @@
+#=================================================================================#
+#                                                                                 #
+# The PyPES library is a collection of high quality semi-global potential energy  #
+# surfaces in non-redundant curvilinear internal coordinates curated from the     #
+# scientific literature. Our code provides the facility to expand these PES in    #
+# a range of different coordinate systems, including normal modes. For more       # 
+# details, see Sibaev and Crittenden, J. Comp. Chem., 36, 2015, 2200-2207.        #
+#                                                                                 #
+# The extensible PyPES library contains additional code to enable force field     #
+# expansions in curvilinear normal mode coordinates to be generated on-the-fly    #
+# from ab initio data, and transformed into the usual rectilinear normal mode     #
+# coordinates. Note that this requires access to the quantum chemistry program    #
+# package GAMESS. For more details, see Sibaev and Crittenden, J. Chem. Phys.,    #
+# 144, 2016, 214107.                                                              #   
+#                                                                                 #
+# The force_field_update.tar file contains additional force fields generated      #
+# using this procedure at HF/6-311G*. Force field data fields are compressed      #
+# using bzip2 and must be decompressed and transferred to the code/force_field    #
+# directory before use.                                                           #
+#                                                                                 #
+# Separate README files detailing the installation and usage of each program are  #
+# provided in each .tgz archive. User manuals are provided in docs/               #
+#                                                                                 #
+#=================================================================================#
